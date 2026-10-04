@@ -38,6 +38,7 @@ for (const part of src.split(
       .replace(/<!--[\s\S]*?-->/g, "")
       .replace(/\s+/g, " ")
       .replace(/>\s+</g, "><")
+      .replace(/="(.*?)"/g, (a, b) => "=" + b.replace(/ /g, ""))
       .trim();
   }
 }
