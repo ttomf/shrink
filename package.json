@@ -1,0 +1,10 @@
+{
+  "name": "shrink",
+  "version": "1.0.0",
+  "description": "Small web game under 3KB",
+  "author": "ttomf",
+  "type": "commonjs",
+  "devDependencies": {
+    "terser": "^5.51.2"
+  }
+}
