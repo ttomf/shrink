@@ -2,6 +2,8 @@
 
 This is a small web 3D platformer game (it has exactly 3KiB, 3072 bytes!) made for the [Shrink Hack Club event](https://shrink.hackclub.com).
 
+![Screenshot](screenshot.png)
+
 ## How to use it
 
 Copy the contents of [dist/uri.txt](dist/uri.txt) and paste them into the browser's address bar. If it's too hard, or you just want to explore the map, run `player.y = 100` in the browser console.
