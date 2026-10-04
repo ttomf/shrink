@@ -11,6 +11,7 @@ function glsl(code) {
     .replace(/\/\/.*|\/\*[\s\S]*?\*\//g, "")
     .replace(/\s+/g, " ")
     .replace(/\s*([-+*\/=<>(){}\[\];,!&|?:])\s*/g, "$1")
+    .replace(/(#version\s+\d+\s+\w+)\s*/, "$1\n")
     .trim();
 }
 
