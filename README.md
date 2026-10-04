@@ -4,7 +4,7 @@ This is a small web game (under 3KB) made for [Shrink Hackclub event](https://sh
 
 ## How to use it
 
-Copy the contents of [dist/uri.txt](dist/uri.txt) and paste them into browser's address bar.
+Copy the contents of [dist/uri.txt](dist/uri.txt) and paste them into browser's address bar. If it's too hard or you just want to explore the map, run `player.y = 100` in browser console.
 
 ## How it works
 
